@@ -2,7 +2,7 @@
 
 ## Setup 
 
-1.Install [Node.js](https://nodejs.org/).
+1. Install [Node.js](https://nodejs.org/).
 
 2. cd <project-directory>
 
@@ -25,3 +25,5 @@ Description: Calculates Overall Equipment Effectiveness (OEE) for each equipment
 ## Author 
 
 - Name : Ronggur Mahendra Widya Putra
+
+- repository : https://github.com/ronggurmahendra/CadIT-TechnicalTest-.git
