@@ -2,9 +2,24 @@ const fs = require('fs');
 const path = require('path');
 const express = require('express');
 
+// A/P/Q is only calculated when production occurs. You can skip the average for days without 
+// production in multi-day calculations and also exclude calculations for equipment that had no 
+// production. Example:
+const hasProduction = (productionData) => {
+    return productionData.some(entry => entry.actual_quantity > 0);
+};
 
+const hasRunningStatusForDay = (statusData, date) => {
+    return statusData.some(entry => {
+        const entryDate = new Date(entry.Start_Time).toDateString();
+        return entryDate === date && entry.Status === "RUNNING";
+    });
+};
 
-const calculateAvailability = (statusData) => {
+const calculateAvailability = (statusData, productionData) => {
+    // A = RUNNING + IDLE / TOTAL
+    if (!hasProduction(productionData)) return 0;
+
     let runningTime = 0;
     let idleTime = 0;
     let downTime = 0;
@@ -13,10 +28,7 @@ const calculateAvailability = (statusData) => {
         const startTime = new Date(entry.Start_Time);
         const endTime = new Date(entry.End_Time);
 
-        // Skip invalid date entries
-        if (isNaN(startTime) || isNaN(endTime)) return;
-
-        const duration = (endTime - startTime) / 1000; // in seconds
+        const duration = (endTime - startTime) / 1000;
 
         if (entry.Status === "RUNNING") {
             runningTime += duration;
@@ -28,48 +40,116 @@ const calculateAvailability = (statusData) => {
     });
 
     const totalTime = runningTime + idleTime + downTime;
-    return totalTime ? (runningTime + idleTime) / totalTime :0 ; // Availability
+    return totalTime > 0 ? (runningTime + idleTime) / totalTime : 0;
 };
 
-const calculatePerformance = (productionData) => {
-    const plannedDuration = productionData.reduce((sum, entry) => sum + entry.planned_duration_in_second, 0);
-    const plannedQuantity = productionData.reduce((sum, entry) => sum + entry.planned_quantity, 0);
-    const actualDuration = productionData.reduce((sum, entry) => {
+// Calculate Performance
+const calculatePerformance = (statusData, productionData) => {
+    // P = IDEAL CYCLE TIME / ACTUAL CYCLE TIME
+    // IDEAL CYCLE TIME  = PLANNED DURATION/PLANNED QUANTITY
+    // ACTUAL CYCLE TIME  = ACTUAL DURATION/ACTUAL QUANTITY
+    if (!hasProduction(productionData)) return 0;
+
+    let plannedDuration = 0;
+    let plannedQuantity = 0;
+    let actualDuration = 0;
+    let actualQuantity = 0;
+
+    productionData.forEach(entry => {
+        plannedDuration += entry.planned_duration_in_second;
+        plannedQuantity += entry.planned_quantity;
+
         const start = new Date(entry.start_production);
         const end = new Date(entry.finish_production);
-        return sum + (end - start) / 1000; // in seconds
-    }, 0);
-    const actualQuantity = productionData.reduce((sum, entry) => sum + entry.actual_quantity, 0);
+        actualDuration += (end - start) / 1000;
 
-    const idealCycleTime = plannedDuration / plannedQuantity;
-    const actualCycleTime = actualDuration / actualQuantity;
+        actualQuantity += entry.actual_quantity;
+    });
 
-    let performance = idealCycleTime / actualCycleTime;
+    const idealCycleTime = plannedQuantity > 0 ? plannedDuration / plannedQuantity : 0;
+    const actualCycleTime = actualQuantity > 0 ? actualDuration / actualQuantity : 0;
+
+    let performance = actualCycleTime > 0 ? idealCycleTime / actualCycleTime : 0;
     if (performance > 1) performance = 1;
+
     return performance;
 };
 
-const calculateQuality = (productionData) => {
-    const actualQuantity = productionData.reduce((sum, entry) => sum + entry.actual_quantity, 0);
-    const defectQuantity = productionData.reduce((sum, entry) => sum + entry.defect_quantity, 0);
+// Calculate Quality
+const calculateQuality = (statusData, productionData) => {
+    // Q = ACTUAL QUANTIY - TOTAL DEFECT QUANTITY / ACTUAL QUANTITY
+    if (!hasProduction(productionData)) return 0;
 
-    const goodQuantity = actualQuantity - defectQuantity;
-    const quality = actualQuantity ? goodQuantity / actualQuantity : 0;
-    return quality;
+    let totalActualQuantity = 0;
+    let totalDefectQuantity = 0;
+
+    productionData.forEach(entry => {
+        totalActualQuantity += entry.actual_quantity;
+        totalDefectQuantity += entry.defect_quantity;
+    });
+
+    const goodQuantity = totalActualQuantity - totalDefectQuantity;
+    return totalActualQuantity > 0 ? goodQuantity / totalActualQuantity : 0;
 };
 
+// Calculate OEE
 const calculateOEE = (statusData, productionData) => {
-    const  availability  = calculateAvailability(statusData);
-    const performance = calculatePerformance(productionData);
-    const quality = calculateQuality(productionData);
+    const uniqueDates = [...new Set(productionData.map(entry => new Date(entry.start_production).toDateString()))];
+    let totalAvailability = 0;
+    let totalPerformance = 0;
+    let totalQuality = 0;
+    let daysWithProduction = 0;
 
-    const oee = availability * performance * quality;
-    return { availability, performance, quality, oee };
+    
+    uniqueDates.forEach(date => {
+        // make sure the day calck is producing something first
+        if (hasRunningStatusForDay(statusData, date) && hasProduction(productionData)) {
+            const dailyStatusData = statusData.filter(entry => new Date(entry.Start_Time).toDateString() === date);
+            const dailyProductionData = productionData.filter(entry => new Date(entry.start_production).toDateString() === date);
+
+            const availability = calculateAvailability(dailyStatusData, dailyProductionData);
+            const performance = calculatePerformance(dailyStatusData, dailyProductionData);
+            const quality = calculateQuality(dailyStatusData, dailyProductionData);
+
+            totalAvailability += availability;
+            totalPerformance += performance;
+            totalQuality += quality;
+            daysWithProduction++;
+        }
+    });
+
+    const averageAvailability = daysWithProduction > 0 ? totalAvailability / daysWithProduction : 0;
+    const averagePerformance = daysWithProduction > 0 ? totalPerformance / daysWithProduction : 0;
+    const averageQuality = daysWithProduction > 0 ? totalQuality / daysWithProduction : 0;
+    const oee = averageAvailability * averagePerformance * averageQuality;
+
+    return {
+        availability: averageAvailability,
+        performance: averagePerformance,
+        quality: averageQuality,
+        oee
+    };
+};
+const categorizeOEE = (oee) => {
+    if (0 <= oee && oee <= 0.5) {
+        return "Bad";
+    } else if (0.5 < oee && oee <= 0.6) {
+        return "Minimum";
+    } else if (0.6 < oee && oee <= 0.75) {
+        return "Good";
+    } else if (0.75 < oee && oee <= 0.85) {
+        return "Recommended";
+    } else if (0.85 < oee && oee <= 1) {
+        return "Excellent";
+    }
+    return "";
 };
 
+// Export functions
 module.exports = {
     calculateAvailability,
     calculatePerformance,
     calculateQuality,
     calculateOEE,
+    categorizeOEE
 };

@@ -17,9 +17,10 @@ const {
     calculatePerformance,
     calculateQuality,
     calculateOEE,
+    categorizeOEE
 } = require('./OEECalculation')
 
-// Merge data for a n equipment
+// Merge data for current equipment
 function tempMergeData(statusData, manualData) {
     // TODO : this is a working but really bad impelemntation, have n^2 complexites should be able to make it n*logn
     let combinedData = [
@@ -134,21 +135,56 @@ app.get('/OEECalculation', (req, res) => {
         const equipmentStatusData = statusData.filter(entry => entry.Equipment === equipmentId);
         const equipmentProductionData = productionData.filter(entry => entry.equipment_id === equipmentId);
 
-        // Calculate availability, performance, quality, and OEE for this equipment
-        const availability = calculateAvailability(equipmentStatusData);
-        const performance = calculatePerformance(equipmentProductionData);
-        const quality = calculateQuality(equipmentProductionData);
-        const oee = availability * performance * quality;
-
+        // Calculate A,P,Q for this equipment
+        // Equipment Avg
+        // const availability = calculateAvailability(equipmentStatusData, equipmentProductionData);
+        // const performance = calculatePerformance(equipmentStatusData, equipmentProductionData);
+        // const quality = calculateQuality(equipmentStatusData, equipmentProductionData);
+        // OEE
+        const res = calculateOEE(equipmentStatusData, equipmentProductionData)
+        const category = categorizeOEE(res.oee);
         results[equipmentId] = {
-            availability,
-            performance,
-            quality,
-            oee
+            equipmentId,
+            availability: res.availability,
+            performance: res.performance,
+            quality: res.quality,
+            oee: res.oee,
+            category
         };
 
-        console.log(`Equipment ${equipmentId} - Availability: ${availability}, Performance: ${performance}, Quality: ${quality}, OEE: ${oee}`);
+        // console.log(`Equipment ${equipmentId} - Availability: ${availability}, Performance: ${performance}, Quality: ${quality}, OEE: ${oee}, Category: ${category}`);
     });
+    // Calculate Averages
+    let totalAvailability = 0;
+    let totalPerformance = 0;
+    let totalQuality = 0;
+    let totalOEE = 0;
+    let validEquipmentCount = 0;
+
+    equipmentIds.forEach(equipmentId => {
+        const equipmentData = results[equipmentId];
+        if (equipmentData.availability > 0 || equipmentData.performance > 0 || equipmentData.quality > 0) {
+            totalAvailability += equipmentData.availability;
+            totalPerformance += equipmentData.performance;
+            totalQuality += equipmentData.quality;
+            totalOEE += equipmentData.oee;
+            validEquipmentCount++;
+        }
+    });
+
+    // Calculate averages
+    const avgAvailability = validEquipmentCount > 0 ? totalAvailability / validEquipmentCount : 0;
+    const avgPerformance = validEquipmentCount > 0 ? totalPerformance / validEquipmentCount : 0;
+    const avgQuality = validEquipmentCount > 0 ? totalQuality / validEquipmentCount : 0;
+    const avgOEE = validEquipmentCount > 0 ? totalOEE / validEquipmentCount : 0;
+
+    results["All Equipment Average"] = {
+        availability: avgAvailability,
+        performance: avgPerformance,
+        quality: avgQuality,
+        oee: avgOEE,
+        category: categorizeOEE(avgOEE)
+    };
     res.json(results);
 });
 
