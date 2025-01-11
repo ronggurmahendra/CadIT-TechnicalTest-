@@ -16,11 +16,11 @@
 
 ### /Downtimeaggregation
 
-Description: Aggregates downtime data for equipment based on status and production logs.
+Description: Aggregates downtime data for equipment based on status.json and manual_status.json logs. (Question 1)
 
 ###  /OEECalculation
 
-Description: Calculates Overall Equipment Effectiveness (OEE) for each equipment based on provided status and production data.
+Description: Calculates Overall Equipment Effectiveness (OEE) for each equipment based on provided status and production data. (Question 3)
 
 ## Author 
 
