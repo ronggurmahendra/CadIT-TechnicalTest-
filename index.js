@@ -4,37 +4,20 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
-// Load JSON
-function loadJsonData(filename) {
-    const filePath = path.join(__dirname, filename);
-    return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-}
+const {
+    loadJsonData,
+    parseTimestamps,
+    formatDate,
+    splitEntryByMidnightWithReasonStatus,
+    splitEntryByMidnight
+} = require('./utils');
 
-// Convert ts to Date objects
-function parseTimestamps(entry) {
-    return {
-        ...entry,
-        start_time: new Date(entry.start_time),
-        end_time: new Date(entry.end_time),
-    };
-}
-
-// Format date
-function formatDate(date) {
-    if (!(date instanceof Date)) {
-        date = new Date(date);
-    }
-    if (isNaN(date)) {
-        throw new Error("Invalid date format");
-    }
-    const year = date.getFullYear();
-    const month = String(date.getMonth() + 1).padStart(2, '0');
-    const day = String(date.getDate()).padStart(2, '0');
-    const hours = String(date.getHours()).padStart(2, '0');
-    const minutes = String(date.getMinutes()).padStart(2, '0');
-    const seconds = String(date.getSeconds()).padStart(2, '0');
-    return `${year}/${month}/${day} ${hours}:${minutes}:${seconds}`;
-}
+const {
+    calculateAvailability,
+    calculatePerformance,
+    calculateQuality,
+    calculateOEE,
+} = require('./OEECalculation')
 
 // Merge data for a n equipment
 function tempMergeData(statusData, manualData) {
@@ -96,19 +79,28 @@ function mergeData(statusData, manualData) {
     let mergedData = [];
 
     equipmentIds.forEach(equipmentId => {
+        console.log("===================", equipmentId, "===================")
         const statusForEquipment = statusData.filter(entry => entry.equipment_id === equipmentId);
         const manualForEquipment = manualData.filter(entry => entry.equipment_id === equipmentId);
         const tempMerged = tempMergeData(statusForEquipment, manualForEquipment);
+        
         mergedData = mergedData.concat(tempMerged);
+
+        console.log("statusForEquipment", equipmentId," length ", statusForEquipment.length)
+        console.log("manualForEquipment", equipmentId," length ", manualForEquipment.length)
+        console.log("Merged", equipmentId," length ", tempMerged.length)
+        console.log("Merged cum length ", mergedData.length)
     });
 
     return mergedData;
 }
 
-app.get('/data', (req, res) => {
+app.get('/Downtimeaggregation', (req, res) => {
+    // TODO : refactor 
     const statusData = loadJsonData('status.json').map(parseTimestamps);
     const manualData = loadJsonData('manual_status.json').map(parseTimestamps);
-
+    // const statusData = loadJsonData('dummy_status.json').map(parseTimestamps);
+    // const manualData = loadJsonData('dummy_manual_status.json').map(parseTimestamps);
     const mergedData = mergeData(statusData, manualData).sort((a, b) => {
         if (a.equipment_id !== b.equipment_id) {
             return a.equipment_id - b.equipment_id;
@@ -116,19 +108,52 @@ app.get('/data', (req, res) => {
         return a.start_time - b.start_time;
     });
 
-    const result = mergedData.map(entry => ({
-        Equipment: entry.equipment_id,
-        Start_Time: formatDate(entry.start_time),
-        End_Time: formatDate(entry.end_time),
-        Source: entry.source,
-        Status: entry.status,
-        Reason: entry.reason,
-    }));
+
+    const result = mergedData.flatMap(splitEntryByMidnightWithReasonStatus);
 
     console.log("Merged result length:", result.length);
     res.json(result);
 });
 
+
+app.get('/OEECalculation', (req, res) => {
+    // Load JSON data    
+    const statusData = JSON.parse(fs.readFileSync('status.json', 'utf8')).flatMap(splitEntryByMidnight);
+    const productionData = JSON.parse(fs.readFileSync('production.json', 'utf8'));
+
+    const equipmentIds =  Array.from(new Set(statusData.map(entry => entry.Equipment)));
+    console.log(statusData)
+    console.log("equipmentIds : " , equipmentIds)
+
+    // Calculate each equipment
+    const results = {};
+
+    equipmentIds.forEach(equipmentId => {
+        console.log("===================", equipmentId, "===================")
+        // Filter  for the current equipment
+        const equipmentStatusData = statusData.filter(entry => entry.Equipment === equipmentId);
+        const equipmentProductionData = productionData.filter(entry => entry.equipment_id === equipmentId);
+
+        // Calculate availability, performance, quality, and OEE for this equipment
+        const availability = calculateAvailability(equipmentStatusData);
+        const performance = calculatePerformance(equipmentProductionData);
+        const quality = calculateQuality(equipmentProductionData);
+        const oee = availability * performance * quality;
+
+        results[equipmentId] = {
+            availability,
+            performance,
+            quality,
+            oee
+        };
+
+        console.log(`Equipment ${equipmentId} - Availability: ${availability}, Performance: ${performance}, Quality: ${quality}, OEE: ${oee}`);
+    });
+    res.json(results);
+});
+
+
+
 app.listen(port, () => {
-    console.log(`Server running on http://localhost:${port}/data`);
+    console.log(`Server running on http://localhost:${port}`);
 });
