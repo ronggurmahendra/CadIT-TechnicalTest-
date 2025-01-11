@@ -1,0 +1,5056 @@
+[
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/1 00:00:01",
+        "end_time": "2024/12/1 00:54:08",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/1 04:45:53",
+        "end_time": "2024/12/1 05:46:59",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/1 08:40:13",
+        "end_time": "2024/12/1 09:59:32",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/1 13:47:34",
+        "end_time": "2024/12/1 14:16:32",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/1 17:09:30",
+        "end_time": "2024/12/1 17:49:16",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/1 20:03:52",
+        "end_time": "2024/12/1 22:03:13",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/2 01:22:07",
+        "end_time": "2024/12/2 03:06:58",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/2 05:30:19",
+        "end_time": "2024/12/2 06:54:00",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/2 10:50:19",
+        "end_time": "2024/12/2 11:54:31",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/2 15:25:09",
+        "end_time": "2024/12/2 16:00:11",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/2 18:45:54",
+        "end_time": "2024/12/2 20:13:00",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/2 22:47:27",
+        "end_time": "2024/12/2 23:18:50",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/3 01:58:11",
+        "end_time": "2024/12/3 03:03:00",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/3 05:32:50",
+        "end_time": "2024/12/3 07:05:42",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/3 09:14:39",
+        "end_time": "2024/12/3 09:55:07",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/3 12:55:49",
+        "end_time": "2024/12/3 14:28:53",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/3 17:34:49",
+        "end_time": "2024/12/3 18:04:49",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/3 21:52:58",
+        "end_time": "2024/12/3 22:21:55",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/4 00:30:23",
+        "end_time": "2024/12/4 01:38:15",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/4 05:01:47",
+        "end_time": "2024/12/4 06:57:38",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/4 10:47:14",
+        "end_time": "2024/12/4 10:59:24",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/4 13:35:04",
+        "end_time": "2024/12/4 15:21:25",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/4 18:59:15",
+        "end_time": "2024/12/4 19:56:01",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/4 22:23:30",
+        "end_time": "2024/12/4 23:56:52",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/5 03:15:22",
+        "end_time": "2024/12/5 03:40:55",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/5 06:03:22",
+        "end_time": "2024/12/5 06:14:34",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/5 09:30:30",
+        "end_time": "2024/12/5 10:53:23",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/5 13:57:57",
+        "end_time": "2024/12/5 14:52:55",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/5 17:13:28",
+        "end_time": "2024/12/5 17:43:55",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/5 21:41:46",
+        "end_time": "2024/12/5 22:07:49",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/6 01:00:18",
+        "end_time": "2024/12/6 01:14:58",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/6 04:18:42",
+        "end_time": "2024/12/6 06:12:26",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/6 10:08:00",
+        "end_time": "2024/12/6 10:44:22",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/6 13:41:06",
+        "end_time": "2024/12/6 14:38:03",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/6 18:25:45",
+        "end_time": "2024/12/6 18:37:47",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/6 21:22:36",
+        "end_time": "2024/12/6 22:50:27",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/7 01:14:14",
+        "end_time": "2024/12/7 01:40:49",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/7 05:33:00",
+        "end_time": "2024/12/7 06:43:27",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/7 10:11:57",
+        "end_time": "2024/12/7 11:02:04",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/7 14:58:55",
+        "end_time": "2024/12/7 16:34:37",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/7 19:33:27",
+        "end_time": "2024/12/7 20:52:38",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/7 23:16:54",
+        "end_time": "2024/12/8 00:04:31",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/8 04:04:24",
+        "end_time": "2024/12/8 05:24:53",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/8 08:38:14",
+        "end_time": "2024/12/8 10:24:06",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/8 12:24:10",
+        "end_time": "2024/12/8 12:38:05",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/8 14:42:18",
+        "end_time": "2024/12/8 16:11:39",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/8 18:25:14",
+        "end_time": "2024/12/8 18:59:23",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/8 22:08:46",
+        "end_time": "2024/12/8 22:37:33",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/9 00:57:19",
+        "end_time": "2024/12/9 01:52:30",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/9 04:34:35",
+        "end_time": "2024/12/9 06:21:16",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/9 09:55:38",
+        "end_time": "2024/12/9 11:33:00",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/9 14:09:52",
+        "end_time": "2024/12/9 16:04:25",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/9 18:53:16",
+        "end_time": "2024/12/9 20:20:39",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/9 22:29:13",
+        "end_time": "2024/12/9 23:55:18",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/10 03:13:21",
+        "end_time": "2024/12/10 05:03:25",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/10 07:19:03",
+        "end_time": "2024/12/10 07:34:18",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/10 10:13:25",
+        "end_time": "2024/12/10 12:06:32",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/10 14:14:37",
+        "end_time": "2024/12/10 15:06:12",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/10 17:51:12",
+        "end_time": "2024/12/10 19:06:39",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/10 21:46:31",
+        "end_time": "2024/12/10 23:18:35",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/11 01:47:15",
+        "end_time": "2024/12/11 03:12:40",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/11 06:46:36",
+        "end_time": "2024/12/11 08:20:50",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/11 11:35:06",
+        "end_time": "2024/12/11 13:33:26",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/11 17:02:36",
+        "end_time": "2024/12/11 18:42:43",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/11 21:22:59",
+        "end_time": "2024/12/11 22:45:21",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/12 01:22:46",
+        "end_time": "2024/12/12 02:17:29",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/12 04:38:26",
+        "end_time": "2024/12/12 05:16:11",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/12 07:21:32",
+        "end_time": "2024/12/12 09:13:58",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/12 11:35:56",
+        "end_time": "2024/12/12 12:25:00",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/12 15:41:24",
+        "end_time": "2024/12/12 16:07:06",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/12 20:03:18",
+        "end_time": "2024/12/12 22:02:08",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/13 01:27:44",
+        "end_time": "2024/12/13 03:19:44",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/13 05:56:35",
+        "end_time": "2024/12/13 07:24:34",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/13 09:54:25",
+        "end_time": "2024/12/13 11:19:03",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/13 15:17:49",
+        "end_time": "2024/12/13 16:55:35",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/13 19:51:11",
+        "end_time": "2024/12/13 20:29:56",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/14 00:12:22",
+        "end_time": "2024/12/14 00:47:56",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/14 04:06:37",
+        "end_time": "2024/12/14 04:37:57",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/14 08:20:04",
+        "end_time": "2024/12/14 09:43:44",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/14 13:31:20",
+        "end_time": "2024/12/14 14:01:19",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/14 17:43:09",
+        "end_time": "2024/12/14 18:32:59",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/14 20:45:27",
+        "end_time": "2024/12/14 21:31:28",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/15 00:07:44",
+        "end_time": "2024/12/15 00:52:28",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/15 03:30:25",
+        "end_time": "2024/12/15 04:45:28",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/15 08:37:41",
+        "end_time": "2024/12/15 08:59:23",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/15 12:04:43",
+        "end_time": "2024/12/15 13:05:24",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/15 17:00:36",
+        "end_time": "2024/12/15 17:55:52",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/15 20:36:57",
+        "end_time": "2024/12/15 21:44:17",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/15 23:56:14",
+        "end_time": "2024/12/16 01:32:14",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/16 03:49:16",
+        "end_time": "2024/12/16 04:18:30",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/16 06:48:01",
+        "end_time": "2024/12/16 08:37:46",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/16 11:50:48",
+        "end_time": "2024/12/16 12:41:57",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/16 15:13:19",
+        "end_time": "2024/12/16 15:53:55",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/16 19:03:00",
+        "end_time": "2024/12/16 20:09:41",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/16 23:46:27",
+        "end_time": "2024/12/17 00:52:24",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/17 03:48:24",
+        "end_time": "2024/12/17 04:32:07",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/17 06:50:45",
+        "end_time": "2024/12/17 07:04:49",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/17 09:22:46",
+        "end_time": "2024/12/17 09:35:45",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/17 12:40:41",
+        "end_time": "2024/12/17 14:31:44",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/17 17:41:25",
+        "end_time": "2024/12/17 18:27:43",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/17 22:15:19",
+        "end_time": "2024/12/17 23:01:24",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/18 02:00:44",
+        "end_time": "2024/12/18 02:11:30",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/18 05:31:34",
+        "end_time": "2024/12/18 07:06:48",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/18 09:18:14",
+        "end_time": "2024/12/18 09:40:11",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/18 13:33:39",
+        "end_time": "2024/12/18 15:30:05",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/18 18:40:03",
+        "end_time": "2024/12/18 19:03:13",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/18 22:57:27",
+        "end_time": "2024/12/18 23:42:43",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/19 03:02:35",
+        "end_time": "2024/12/19 03:33:21",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/19 06:33:12",
+        "end_time": "2024/12/19 06:44:56",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/19 09:44:37",
+        "end_time": "2024/12/19 10:13:25",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/19 12:26:55",
+        "end_time": "2024/12/19 14:07:23",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/19 16:12:05",
+        "end_time": "2024/12/19 18:08:39",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/19 20:58:53",
+        "end_time": "2024/12/19 21:27:36",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/20 00:33:29",
+        "end_time": "2024/12/20 01:12:36",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/20 04:11:08",
+        "end_time": "2024/12/20 05:41:32",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/20 09:20:50",
+        "end_time": "2024/12/20 11:18:22",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/20 14:45:05",
+        "end_time": "2024/12/20 16:29:59",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/20 19:44:53",
+        "end_time": "2024/12/20 20:51:37",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/20 23:01:11",
+        "end_time": "2024/12/21 00:49:04",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/21 03:24:45",
+        "end_time": "2024/12/21 04:51:22",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/21 07:03:25",
+        "end_time": "2024/12/21 07:47:15",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/21 11:09:16",
+        "end_time": "2024/12/21 12:38:58",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/21 16:27:57",
+        "end_time": "2024/12/21 17:34:53",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/21 20:29:52",
+        "end_time": "2024/12/21 21:33:07",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/22 00:50:16",
+        "end_time": "2024/12/22 02:13:36",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/22 05:20:54",
+        "end_time": "2024/12/22 06:50:26",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/22 10:03:10",
+        "end_time": "2024/12/22 10:42:24",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/22 13:54:51",
+        "end_time": "2024/12/22 14:49:54",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/22 18:24:45",
+        "end_time": "2024/12/22 20:12:31",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/22 22:45:48",
+        "end_time": "2024/12/22 23:31:34",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/23 01:40:37",
+        "end_time": "2024/12/23 02:35:40",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/23 05:38:30",
+        "end_time": "2024/12/23 06:54:06",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/23 09:56:43",
+        "end_time": "2024/12/23 10:16:38",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/23 13:48:29",
+        "end_time": "2024/12/23 14:22:09",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/23 16:34:21",
+        "end_time": "2024/12/23 17:47:37",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/23 20:52:59",
+        "end_time": "2024/12/23 22:34:33",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/24 01:08:53",
+        "end_time": "2024/12/24 02:49:11",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/24 06:23:45",
+        "end_time": "2024/12/24 08:21:09",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/24 11:55:38",
+        "end_time": "2024/12/24 12:14:52",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/24 15:52:40",
+        "end_time": "2024/12/24 16:13:44",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/24 19:39:49",
+        "end_time": "2024/12/24 21:00:11",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/25 00:37:25",
+        "end_time": "2024/12/25 01:12:01",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/25 03:46:01",
+        "end_time": "2024/12/25 05:44:13",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/25 08:51:30",
+        "end_time": "2024/12/25 09:08:10",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/25 11:40:33",
+        "end_time": "2024/12/25 12:05:57",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/25 14:10:34",
+        "end_time": "2024/12/25 14:24:53",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/25 16:56:40",
+        "end_time": "2024/12/25 17:17:58",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/25 20:31:03",
+        "end_time": "2024/12/25 22:11:33",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/26 00:14:08",
+        "end_time": "2024/12/26 00:29:50",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/26 04:08:05",
+        "end_time": "2024/12/26 05:24:03",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/26 07:31:30",
+        "end_time": "2024/12/26 07:55:13",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/26 10:53:31",
+        "end_time": "2024/12/26 11:08:46",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/26 14:45:55",
+        "end_time": "2024/12/26 15:27:32",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/26 18:10:23",
+        "end_time": "2024/12/26 18:46:50",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/26 22:38:58",
+        "end_time": "2024/12/27 00:03:38",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/27 03:27:46",
+        "end_time": "2024/12/27 05:09:38",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/27 08:46:45",
+        "end_time": "2024/12/27 10:09:05",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/27 13:22:47",
+        "end_time": "2024/12/27 14:55:38",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/27 17:42:34",
+        "end_time": "2024/12/27 18:43:57",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/27 21:11:38",
+        "end_time": "2024/12/27 21:51:54",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/28 00:44:44",
+        "end_time": "2024/12/28 01:16:19",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/28 03:41:19",
+        "end_time": "2024/12/28 05:28:24",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/28 08:15:56",
+        "end_time": "2024/12/28 08:49:55",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/28 11:59:18",
+        "end_time": "2024/12/28 12:27:14",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/28 14:28:05",
+        "end_time": "2024/12/28 15:38:04",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/28 18:42:35",
+        "end_time": "2024/12/28 19:21:28",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/28 22:07:03",
+        "end_time": "2024/12/28 23:17:14",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/29 02:10:17",
+        "end_time": "2024/12/29 03:42:47",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/29 07:41:34",
+        "end_time": "2024/12/29 09:17:32",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/29 12:10:09",
+        "end_time": "2024/12/29 12:59:28",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/29 15:02:52",
+        "end_time": "2024/12/29 16:34:59",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/29 19:04:18",
+        "end_time": "2024/12/29 20:02:51",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/29 23:21:40",
+        "end_time": "2024/12/30 00:21:55",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/30 04:14:06",
+        "end_time": "2024/12/30 04:39:10",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/30 06:48:33",
+        "end_time": "2024/12/30 07:56:53",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/30 10:56:52",
+        "end_time": "2024/12/30 12:10:45",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/30 16:03:58",
+        "end_time": "2024/12/30 17:37:49",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/30 20:54:40",
+        "end_time": "2024/12/30 21:03:22",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/30 23:44:08",
+        "end_time": "2024/12/30 23:57:16",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/31 03:43:02",
+        "end_time": "2024/12/31 05:24:40",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/31 08:53:56",
+        "end_time": "2024/12/31 09:26:11",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 1,
+        "start_time": "2024/12/31 12:00:32",
+        "end_time": "2024/12/31 13:29:18",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/1 00:00:01",
+        "end_time": "2024/12/1 00:39:34",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/1 02:42:31",
+        "end_time": "2024/12/1 03:41:20",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/1 06:29:39",
+        "end_time": "2024/12/1 08:26:34",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/1 12:19:02",
+        "end_time": "2024/12/1 14:08:44",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/1 16:49:53",
+        "end_time": "2024/12/1 18:00:01",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/1 20:42:24",
+        "end_time": "2024/12/1 21:45:53",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/2 01:15:26",
+        "end_time": "2024/12/2 01:48:20",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/2 05:28:21",
+        "end_time": "2024/12/2 07:21:39",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/2 10:30:38",
+        "end_time": "2024/12/2 12:18:30",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/2 14:41:00",
+        "end_time": "2024/12/2 14:52:50",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/2 18:44:01",
+        "end_time": "2024/12/2 20:40:58",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/2 23:26:20",
+        "end_time": "2024/12/2 23:48:46",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/3 03:06:15",
+        "end_time": "2024/12/3 03:18:03",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/3 06:23:41",
+        "end_time": "2024/12/3 06:40:40",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/3 09:27:49",
+        "end_time": "2024/12/3 11:12:17",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/3 13:21:24",
+        "end_time": "2024/12/3 14:29:28",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/3 16:48:08",
+        "end_time": "2024/12/3 18:15:55",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/3 21:48:47",
+        "end_time": "2024/12/3 22:06:33",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/4 00:50:57",
+        "end_time": "2024/12/4 01:33:17",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/4 05:04:04",
+        "end_time": "2024/12/4 06:36:12",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/4 09:13:21",
+        "end_time": "2024/12/4 11:06:40",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/4 15:04:03",
+        "end_time": "2024/12/4 16:18:33",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/4 18:44:56",
+        "end_time": "2024/12/4 19:25:43",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/4 23:23:07",
+        "end_time": "2024/12/5 01:22:19",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/5 04:07:01",
+        "end_time": "2024/12/5 04:55:18",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/5 07:08:32",
+        "end_time": "2024/12/5 08:19:36",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/5 11:49:38",
+        "end_time": "2024/12/5 13:06:37",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/5 16:27:20",
+        "end_time": "2024/12/5 17:01:45",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/5 20:43:45",
+        "end_time": "2024/12/5 21:34:56",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/6 00:54:04",
+        "end_time": "2024/12/6 01:41:31",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/6 03:45:57",
+        "end_time": "2024/12/6 04:25:56",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/6 07:08:07",
+        "end_time": "2024/12/6 07:44:17",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/6 10:57:07",
+        "end_time": "2024/12/6 12:17:00",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/6 15:15:26",
+        "end_time": "2024/12/6 16:59:34",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/6 19:36:08",
+        "end_time": "2024/12/6 20:26:33",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/6 22:56:00",
+        "end_time": "2024/12/6 23:18:06",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/7 02:56:19",
+        "end_time": "2024/12/7 04:14:58",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/7 07:49:44",
+        "end_time": "2024/12/7 08:10:11",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/7 12:04:07",
+        "end_time": "2024/12/7 13:04:07",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/7 16:48:12",
+        "end_time": "2024/12/7 17:24:20",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/7 21:18:18",
+        "end_time": "2024/12/7 22:49:07",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/8 02:43:43",
+        "end_time": "2024/12/8 04:21:55",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/8 07:34:09",
+        "end_time": "2024/12/8 08:22:28",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/8 11:04:42",
+        "end_time": "2024/12/8 11:39:08",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/8 14:45:54",
+        "end_time": "2024/12/8 15:47:44",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/8 18:32:02",
+        "end_time": "2024/12/8 20:21:04",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/8 23:03:13",
+        "end_time": "2024/12/9 00:01:31",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/9 02:22:30",
+        "end_time": "2024/12/9 03:22:00",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/9 07:17:26",
+        "end_time": "2024/12/9 08:03:10",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/9 10:59:53",
+        "end_time": "2024/12/9 12:29:01",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/9 15:35:33",
+        "end_time": "2024/12/9 15:52:08",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/9 17:57:12",
+        "end_time": "2024/12/9 19:26:03",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/9 23:01:26",
+        "end_time": "2024/12/9 23:10:40",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/10 02:01:49",
+        "end_time": "2024/12/10 03:30:05",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/10 05:54:14",
+        "end_time": "2024/12/10 07:42:51",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/10 11:05:53",
+        "end_time": "2024/12/10 12:49:37",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/10 16:07:40",
+        "end_time": "2024/12/10 17:42:54",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/10 21:16:26",
+        "end_time": "2024/12/10 22:47:36",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/11 01:54:36",
+        "end_time": "2024/12/11 02:34:23",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/11 06:14:22",
+        "end_time": "2024/12/11 07:06:57",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/11 11:00:26",
+        "end_time": "2024/12/11 12:45:06",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/11 16:31:35",
+        "end_time": "2024/12/11 16:46:31",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/11 19:18:44",
+        "end_time": "2024/12/11 19:53:57",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/11 22:23:17",
+        "end_time": "2024/12/11 22:35:05",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/12 01:31:02",
+        "end_time": "2024/12/12 02:31:43",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/12 05:52:30",
+        "end_time": "2024/12/12 06:33:25",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/12 09:57:19",
+        "end_time": "2024/12/12 10:53:04",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/12 14:12:37",
+        "end_time": "2024/12/12 15:06:57",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/12 18:13:07",
+        "end_time": "2024/12/12 19:06:02",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/12 21:39:07",
+        "end_time": "2024/12/12 23:02:52",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/13 01:29:12",
+        "end_time": "2024/12/13 01:58:31",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/13 05:46:50",
+        "end_time": "2024/12/13 07:12:31",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/13 10:14:45",
+        "end_time": "2024/12/13 12:05:24",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/13 15:47:03",
+        "end_time": "2024/12/13 17:19:07",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/13 19:24:53",
+        "end_time": "2024/12/13 21:05:20",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/13 23:47:22",
+        "end_time": "2024/12/14 01:08:36",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/14 03:37:49",
+        "end_time": "2024/12/14 04:36:24",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/14 07:18:52",
+        "end_time": "2024/12/14 08:43:22",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/14 11:08:35",
+        "end_time": "2024/12/14 11:18:56",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/14 14:31:46",
+        "end_time": "2024/12/14 15:32:45",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/14 18:53:15",
+        "end_time": "2024/12/14 19:17:11",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/14 23:04:49",
+        "end_time": "2024/12/14 23:40:22",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/15 02:10:44",
+        "end_time": "2024/12/15 03:59:03",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/15 06:59:02",
+        "end_time": "2024/12/15 08:40:06",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/15 12:21:14",
+        "end_time": "2024/12/15 14:04:41",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/15 17:16:56",
+        "end_time": "2024/12/15 17:32:44",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/15 20:46:50",
+        "end_time": "2024/12/15 21:54:10",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/15 23:58:40",
+        "end_time": "2024/12/16 00:53:09",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/16 03:17:36",
+        "end_time": "2024/12/16 04:40:59",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/16 07:04:44",
+        "end_time": "2024/12/16 07:20:40",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/16 11:17:19",
+        "end_time": "2024/12/16 12:34:53",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/16 15:10:50",
+        "end_time": "2024/12/16 15:29:45",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/16 18:15:09",
+        "end_time": "2024/12/16 19:08:35",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/16 21:44:27",
+        "end_time": "2024/12/16 23:15:24",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/17 02:38:32",
+        "end_time": "2024/12/17 04:19:58",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/17 07:31:08",
+        "end_time": "2024/12/17 09:07:45",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/17 12:42:58",
+        "end_time": "2024/12/17 13:35:28",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/17 17:08:36",
+        "end_time": "2024/12/17 19:06:23",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/17 22:10:31",
+        "end_time": "2024/12/17 23:13:11",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/18 02:13:50",
+        "end_time": "2024/12/18 03:31:03",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/18 06:39:10",
+        "end_time": "2024/12/18 08:02:01",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/18 11:35:06",
+        "end_time": "2024/12/18 12:52:57",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/18 16:17:37",
+        "end_time": "2024/12/18 16:38:25",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/18 19:49:44",
+        "end_time": "2024/12/18 20:04:20",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/18 22:28:31",
+        "end_time": "2024/12/18 23:12:59",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/19 01:25:40",
+        "end_time": "2024/12/19 03:01:54",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/19 05:28:51",
+        "end_time": "2024/12/19 06:43:01",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/19 10:36:54",
+        "end_time": "2024/12/19 12:35:45",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/19 16:22:43",
+        "end_time": "2024/12/19 17:00:29",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/19 19:55:28",
+        "end_time": "2024/12/19 21:50:16",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/20 00:17:17",
+        "end_time": "2024/12/20 01:42:24",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/20 03:56:38",
+        "end_time": "2024/12/20 04:18:56",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/20 08:15:24",
+        "end_time": "2024/12/20 09:58:37",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/20 12:29:42",
+        "end_time": "2024/12/20 14:05:47",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/20 16:41:09",
+        "end_time": "2024/12/20 17:35:36",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/20 20:04:46",
+        "end_time": "2024/12/20 20:57:36",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/20 23:19:38",
+        "end_time": "2024/12/21 00:53:10",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/21 03:56:24",
+        "end_time": "2024/12/21 05:15:41",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/21 08:08:59",
+        "end_time": "2024/12/21 08:54:15",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/21 11:23:21",
+        "end_time": "2024/12/21 13:10:59",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/21 15:56:19",
+        "end_time": "2024/12/21 16:16:34",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/21 18:43:19",
+        "end_time": "2024/12/21 20:13:12",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/21 22:13:31",
+        "end_time": "2024/12/22 00:13:16",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/22 03:13:03",
+        "end_time": "2024/12/22 03:42:43",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/22 07:10:13",
+        "end_time": "2024/12/22 07:59:38",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/22 11:23:39",
+        "end_time": "2024/12/22 11:44:27",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/22 14:47:47",
+        "end_time": "2024/12/22 15:27:37",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/22 19:20:21",
+        "end_time": "2024/12/22 20:12:25",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/22 23:42:57",
+        "end_time": "2024/12/23 00:03:27",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/23 03:00:58",
+        "end_time": "2024/12/23 04:18:04",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/23 07:39:02",
+        "end_time": "2024/12/23 09:01:29",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/23 11:46:47",
+        "end_time": "2024/12/23 12:00:27",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/23 15:02:52",
+        "end_time": "2024/12/23 15:32:32",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/23 18:54:39",
+        "end_time": "2024/12/23 19:54:39",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/23 22:57:53",
+        "end_time": "2024/12/24 00:09:04",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/24 02:24:22",
+        "end_time": "2024/12/24 04:01:52",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/24 06:03:53",
+        "end_time": "2024/12/24 07:23:31",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/24 10:29:03",
+        "end_time": "2024/12/24 10:50:07",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/24 13:01:24",
+        "end_time": "2024/12/24 13:16:49",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/24 15:54:33",
+        "end_time": "2024/12/24 16:57:06",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/24 19:41:41",
+        "end_time": "2024/12/24 20:55:11",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/24 23:49:54",
+        "end_time": "2024/12/25 00:28:32",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/25 02:45:40",
+        "end_time": "2024/12/25 04:21:09",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/25 06:37:26",
+        "end_time": "2024/12/25 07:11:24",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/25 10:19:42",
+        "end_time": "2024/12/25 11:41:38",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/25 14:46:04",
+        "end_time": "2024/12/25 15:28:09",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/25 18:31:05",
+        "end_time": "2024/12/25 19:40:40",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/25 21:48:36",
+        "end_time": "2024/12/25 23:17:42",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/26 01:54:45",
+        "end_time": "2024/12/26 02:09:28",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/26 05:47:33",
+        "end_time": "2024/12/26 07:42:29",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/26 11:35:18",
+        "end_time": "2024/12/26 11:47:33",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/26 15:32:52",
+        "end_time": "2024/12/26 15:41:15",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/26 18:43:29",
+        "end_time": "2024/12/26 18:57:48",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/26 22:08:40",
+        "end_time": "2024/12/26 23:04:28",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/27 01:11:50",
+        "end_time": "2024/12/27 02:26:38",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/27 05:23:09",
+        "end_time": "2024/12/27 07:04:05",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/27 10:53:27",
+        "end_time": "2024/12/27 12:25:26",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/27 16:10:35",
+        "end_time": "2024/12/27 17:27:17",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/27 19:52:12",
+        "end_time": "2024/12/27 20:03:34",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/27 23:22:02",
+        "end_time": "2024/12/28 01:03:15",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/28 04:49:08",
+        "end_time": "2024/12/28 05:10:46",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/28 09:07:28",
+        "end_time": "2024/12/28 09:36:53",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/28 12:12:34",
+        "end_time": "2024/12/28 13:05:14",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/28 16:00:31",
+        "end_time": "2024/12/28 16:23:50",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/28 18:31:01",
+        "end_time": "2024/12/28 18:40:54",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/28 21:11:56",
+        "end_time": "2024/12/28 23:06:13",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/29 02:11:46",
+        "end_time": "2024/12/29 03:14:45",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/29 06:35:10",
+        "end_time": "2024/12/29 07:52:42",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/29 11:18:49",
+        "end_time": "2024/12/29 11:55:54",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/29 14:42:49",
+        "end_time": "2024/12/29 14:58:25",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/29 17:14:18",
+        "end_time": "2024/12/29 18:09:01",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/29 20:11:43",
+        "end_time": "2024/12/29 21:24:55",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/29 23:55:24",
+        "end_time": "2024/12/30 01:08:53",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/30 03:22:43",
+        "end_time": "2024/12/30 03:55:18",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/30 07:37:25",
+        "end_time": "2024/12/30 08:32:25",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/30 12:15:15",
+        "end_time": "2024/12/30 13:33:04",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/30 16:03:51",
+        "end_time": "2024/12/30 17:12:41",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/30 20:55:39",
+        "end_time": "2024/12/30 22:04:33",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/31 00:16:34",
+        "end_time": "2024/12/31 01:15:20",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 2,
+        "start_time": "2024/12/31 05:03:33",
+        "end_time": "2024/12/31 05:36:22",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/1 00:00:01",
+        "end_time": "2024/12/1 00:21:20",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/1 04:00:20",
+        "end_time": "2024/12/1 04:59:15",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/1 08:05:09",
+        "end_time": "2024/12/1 09:19:19",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/1 11:27:04",
+        "end_time": "2024/12/1 12:28:41",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/1 14:40:23",
+        "end_time": "2024/12/1 15:25:21",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/1 17:58:55",
+        "end_time": "2024/12/1 19:45:44",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/1 23:43:36",
+        "end_time": "2024/12/2 00:05:02",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/2 04:02:02",
+        "end_time": "2024/12/2 05:06:41",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/2 07:42:11",
+        "end_time": "2024/12/2 09:07:26",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/2 13:01:37",
+        "end_time": "2024/12/2 13:44:51",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/2 16:57:25",
+        "end_time": "2024/12/2 17:10:40",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/2 20:29:57",
+        "end_time": "2024/12/2 21:05:41",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/3 00:57:39",
+        "end_time": "2024/12/3 02:47:41",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/3 05:19:33",
+        "end_time": "2024/12/3 07:00:21",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/3 09:38:13",
+        "end_time": "2024/12/3 10:51:49",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/3 13:47:52",
+        "end_time": "2024/12/3 15:31:20",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/3 17:37:55",
+        "end_time": "2024/12/3 18:27:16",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/3 21:05:51",
+        "end_time": "2024/12/3 22:50:18",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/4 00:56:41",
+        "end_time": "2024/12/4 01:16:25",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/4 03:52:04",
+        "end_time": "2024/12/4 05:04:27",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/4 08:37:28",
+        "end_time": "2024/12/4 10:26:47",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/4 13:41:57",
+        "end_time": "2024/12/4 13:54:25",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/4 17:52:28",
+        "end_time": "2024/12/4 19:38:13",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/4 22:42:41",
+        "end_time": "2024/12/4 23:32:14",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/5 02:58:46",
+        "end_time": "2024/12/5 04:27:52",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/5 06:34:52",
+        "end_time": "2024/12/5 08:33:26",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/5 12:25:42",
+        "end_time": "2024/12/5 12:50:50",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/5 16:50:29",
+        "end_time": "2024/12/5 18:41:41",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/5 20:52:52",
+        "end_time": "2024/12/5 22:50:25",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/6 01:17:35",
+        "end_time": "2024/12/6 02:00:58",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/6 04:39:55",
+        "end_time": "2024/12/6 05:18:49",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/6 08:56:55",
+        "end_time": "2024/12/6 09:56:49",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/6 13:19:01",
+        "end_time": "2024/12/6 14:55:06",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/6 17:00:55",
+        "end_time": "2024/12/6 17:16:58",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/6 20:47:28",
+        "end_time": "2024/12/6 22:38:19",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/7 00:41:15",
+        "end_time": "2024/12/7 01:51:47",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/7 04:35:00",
+        "end_time": "2024/12/7 05:38:10",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/7 08:07:05",
+        "end_time": "2024/12/7 09:21:57",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/7 11:42:41",
+        "end_time": "2024/12/7 12:17:46",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/7 16:01:56",
+        "end_time": "2024/12/7 16:52:57",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/7 20:13:42",
+        "end_time": "2024/12/7 21:15:11",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/8 00:45:19",
+        "end_time": "2024/12/8 02:31:17",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/8 05:39:29",
+        "end_time": "2024/12/8 06:25:51",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/8 08:57:25",
+        "end_time": "2024/12/8 09:07:05",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/8 11:12:51",
+        "end_time": "2024/12/8 12:31:26",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/8 16:16:55",
+        "end_time": "2024/12/8 17:18:20",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/8 21:08:21",
+        "end_time": "2024/12/8 22:54:35",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/9 02:03:24",
+        "end_time": "2024/12/9 03:38:08",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/9 06:27:51",
+        "end_time": "2024/12/9 08:24:19",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/9 11:40:44",
+        "end_time": "2024/12/9 12:44:34",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/9 15:45:24",
+        "end_time": "2024/12/9 17:42:13",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/9 20:11:32",
+        "end_time": "2024/12/9 20:58:48",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/9 23:24:56",
+        "end_time": "2024/12/10 00:32:17",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/10 03:11:37",
+        "end_time": "2024/12/10 04:54:30",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/10 07:39:06",
+        "end_time": "2024/12/10 09:17:52",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/10 12:38:54",
+        "end_time": "2024/12/10 13:28:32",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/10 16:10:45",
+        "end_time": "2024/12/10 17:16:05",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/10 20:19:58",
+        "end_time": "2024/12/10 20:54:10",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/10 23:22:13",
+        "end_time": "2024/12/11 00:22:58",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/11 03:25:09",
+        "end_time": "2024/12/11 04:02:52",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/11 07:36:43",
+        "end_time": "2024/12/11 09:02:02",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/11 12:08:59",
+        "end_time": "2024/12/11 13:54:38",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/11 16:16:23",
+        "end_time": "2024/12/11 17:19:50",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/11 21:03:27",
+        "end_time": "2024/12/11 21:52:13",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/12 00:31:03",
+        "end_time": "2024/12/12 02:07:49",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/12 05:38:43",
+        "end_time": "2024/12/12 07:06:23",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/12 09:10:06",
+        "end_time": "2024/12/12 09:28:48",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/12 11:39:27",
+        "end_time": "2024/12/12 12:54:24",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/12 14:55:59",
+        "end_time": "2024/12/12 16:28:07",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/12 19:47:15",
+        "end_time": "2024/12/12 21:44:21",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/12 23:54:19",
+        "end_time": "2024/12/13 00:38:00",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/13 02:42:53",
+        "end_time": "2024/12/13 03:58:58",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/13 06:46:06",
+        "end_time": "2024/12/13 07:35:33",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/13 10:37:18",
+        "end_time": "2024/12/13 11:09:00",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/13 14:05:25",
+        "end_time": "2024/12/13 15:42:46",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/13 19:03:23",
+        "end_time": "2024/12/13 20:50:27",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/13 22:50:28",
+        "end_time": "2024/12/13 23:19:03",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/14 02:46:45",
+        "end_time": "2024/12/14 03:00:57",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/14 05:06:32",
+        "end_time": "2024/12/14 05:40:33",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/14 09:17:08",
+        "end_time": "2024/12/14 09:39:01",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/14 12:31:42",
+        "end_time": "2024/12/14 14:06:13",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/14 16:08:53",
+        "end_time": "2024/12/14 17:26:25",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/14 21:14:01",
+        "end_time": "2024/12/14 21:36:27",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/15 00:23:53",
+        "end_time": "2024/12/15 01:03:12",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/15 03:28:39",
+        "end_time": "2024/12/15 04:22:12",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/15 06:48:30",
+        "end_time": "2024/12/15 07:35:28",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/15 09:42:29",
+        "end_time": "2024/12/15 10:16:06",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/15 12:33:19",
+        "end_time": "2024/12/15 13:12:19",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/15 16:44:00",
+        "end_time": "2024/12/15 17:16:59",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/15 19:17:34",
+        "end_time": "2024/12/15 21:07:18",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/16 00:57:11",
+        "end_time": "2024/12/16 02:25:25",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/16 04:49:50",
+        "end_time": "2024/12/16 05:01:21",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/16 08:47:32",
+        "end_time": "2024/12/16 10:30:04",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/16 13:59:25",
+        "end_time": "2024/12/16 15:49:33",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/16 19:33:43",
+        "end_time": "2024/12/16 20:04:52",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/16 23:07:41",
+        "end_time": "2024/12/16 23:42:17",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/17 01:43:36",
+        "end_time": "2024/12/17 03:14:13",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/17 05:52:52",
+        "end_time": "2024/12/17 06:54:01",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/17 09:47:40",
+        "end_time": "2024/12/17 11:35:30",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/17 14:36:03",
+        "end_time": "2024/12/17 15:00:41",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/17 18:06:40",
+        "end_time": "2024/12/17 19:30:31",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/17 22:15:40",
+        "end_time": "2024/12/17 22:59:37",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/18 01:53:28",
+        "end_time": "2024/12/18 02:47:21",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/18 06:42:11",
+        "end_time": "2024/12/18 06:56:25",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/18 08:58:50",
+        "end_time": "2024/12/18 10:15:53",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/18 12:53:40",
+        "end_time": "2024/12/18 14:14:41",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/18 18:07:21",
+        "end_time": "2024/12/18 18:23:39",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/18 22:19:41",
+        "end_time": "2024/12/19 00:11:52",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/19 02:35:20",
+        "end_time": "2024/12/19 03:08:53",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/19 06:50:18",
+        "end_time": "2024/12/19 08:10:20",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/19 10:48:37",
+        "end_time": "2024/12/19 11:06:45",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/19 15:00:53",
+        "end_time": "2024/12/19 16:33:25",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/19 18:51:57",
+        "end_time": "2024/12/19 20:08:41",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/19 23:45:17",
+        "end_time": "2024/12/20 00:02:43",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/20 03:02:10",
+        "end_time": "2024/12/20 04:01:08",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/20 06:43:45",
+        "end_time": "2024/12/20 08:05:46",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/20 10:22:01",
+        "end_time": "2024/12/20 10:33:14",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/20 14:14:55",
+        "end_time": "2024/12/20 14:42:53",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/20 17:36:10",
+        "end_time": "2024/12/20 18:11:24",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/20 22:06:39",
+        "end_time": "2024/12/20 23:05:32",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/21 02:16:56",
+        "end_time": "2024/12/21 02:57:01",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/21 05:01:44",
+        "end_time": "2024/12/21 06:47:51",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/21 09:02:25",
+        "end_time": "2024/12/21 09:26:06",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/21 13:11:42",
+        "end_time": "2024/12/21 14:12:51",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/21 17:02:44",
+        "end_time": "2024/12/21 17:25:38",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/21 20:41:27",
+        "end_time": "2024/12/21 21:15:47",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/22 01:00:18",
+        "end_time": "2024/12/22 02:54:24",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/22 05:04:37",
+        "end_time": "2024/12/22 06:23:13",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/22 09:09:15",
+        "end_time": "2024/12/22 10:46:23",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/22 13:31:12",
+        "end_time": "2024/12/22 14:11:45",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/22 16:56:13",
+        "end_time": "2024/12/22 17:20:40",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/22 19:28:08",
+        "end_time": "2024/12/22 20:27:11",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/22 23:49:23",
+        "end_time": "2024/12/23 00:14:41",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/23 02:48:13",
+        "end_time": "2024/12/23 04:15:54",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/23 07:48:02",
+        "end_time": "2024/12/23 09:05:48",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/23 12:28:02",
+        "end_time": "2024/12/23 13:05:28",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/23 15:23:21",
+        "end_time": "2024/12/23 16:05:52",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/23 18:39:59",
+        "end_time": "2024/12/23 19:37:35",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/23 23:05:38",
+        "end_time": "2024/12/24 00:15:51",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/24 03:26:54",
+        "end_time": "2024/12/24 04:04:46",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/24 07:15:30",
+        "end_time": "2024/12/24 07:45:24",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/24 10:54:45",
+        "end_time": "2024/12/24 12:11:41",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/24 15:23:23",
+        "end_time": "2024/12/24 15:37:20",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/24 18:41:21",
+        "end_time": "2024/12/24 20:37:16",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/24 23:33:17",
+        "end_time": "2024/12/25 00:28:03",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/25 04:13:17",
+        "end_time": "2024/12/25 06:09:46",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/25 09:17:07",
+        "end_time": "2024/12/25 09:48:18",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/25 13:37:54",
+        "end_time": "2024/12/25 14:03:11",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/25 17:37:36",
+        "end_time": "2024/12/25 19:18:13",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/25 22:33:44",
+        "end_time": "2024/12/26 00:18:56",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/26 03:10:48",
+        "end_time": "2024/12/26 04:57:31",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/26 08:42:48",
+        "end_time": "2024/12/26 10:16:02",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/26 12:47:17",
+        "end_time": "2024/12/26 13:55:50",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/26 17:17:38",
+        "end_time": "2024/12/26 18:04:29",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/26 21:05:08",
+        "end_time": "2024/12/26 23:02:37",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/27 02:53:47",
+        "end_time": "2024/12/27 04:16:09",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/27 06:42:39",
+        "end_time": "2024/12/27 08:20:28",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/27 10:52:50",
+        "end_time": "2024/12/27 11:32:08",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/27 14:53:13",
+        "end_time": "2024/12/27 15:29:40",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/27 18:23:17",
+        "end_time": "2024/12/27 20:21:33",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/27 23:38:52",
+        "end_time": "2024/12/28 01:03:57",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/28 04:07:26",
+        "end_time": "2024/12/28 05:59:46",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/28 08:06:07",
+        "end_time": "2024/12/28 08:31:04",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/28 12:05:33",
+        "end_time": "2024/12/28 13:43:27",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/28 16:50:36",
+        "end_time": "2024/12/28 18:24:12",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/28 21:05:18",
+        "end_time": "2024/12/28 21:16:50",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/28 23:19:37",
+        "end_time": "2024/12/29 00:55:17",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/29 04:54:29",
+        "end_time": "2024/12/29 05:13:48",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/29 08:49:04",
+        "end_time": "2024/12/29 10:17:30",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/29 12:49:14",
+        "end_time": "2024/12/29 13:35:55",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/29 15:57:45",
+        "end_time": "2024/12/29 17:25:27",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/29 21:05:21",
+        "end_time": "2024/12/29 22:10:46",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/30 00:47:13",
+        "end_time": "2024/12/30 02:15:05",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/30 05:54:23",
+        "end_time": "2024/12/30 06:42:21",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/30 09:20:33",
+        "end_time": "2024/12/30 09:48:54",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/30 11:55:07",
+        "end_time": "2024/12/30 13:13:24",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/30 17:09:09",
+        "end_time": "2024/12/30 18:46:10",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/30 20:49:51",
+        "end_time": "2024/12/30 21:42:40",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/31 00:14:18",
+        "end_time": "2024/12/31 01:28:34",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 3,
+        "start_time": "2024/12/31 04:16:46",
+        "end_time": "2024/12/31 04:37:47",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/1 00:00:01",
+        "end_time": "2024/12/1 01:51:09",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/1 04:34:58",
+        "end_time": "2024/12/1 05:44:13",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/1 08:35:09",
+        "end_time": "2024/12/1 09:16:07",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/1 11:44:37",
+        "end_time": "2024/12/1 13:32:38",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/1 16:58:33",
+        "end_time": "2024/12/1 17:40:08",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/1 21:31:09",
+        "end_time": "2024/12/1 23:14:53",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/2 02:11:09",
+        "end_time": "2024/12/2 02:22:11",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/2 05:14:35",
+        "end_time": "2024/12/2 06:40:14",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/2 09:10:32",
+        "end_time": "2024/12/2 10:24:07",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/2 12:38:55",
+        "end_time": "2024/12/2 14:29:47",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/2 17:01:01",
+        "end_time": "2024/12/2 18:04:10",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/2 20:36:05",
+        "end_time": "2024/12/2 22:04:29",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/3 00:35:18",
+        "end_time": "2024/12/3 01:49:43",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/3 05:19:10",
+        "end_time": "2024/12/3 06:56:21",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/3 09:11:13",
+        "end_time": "2024/12/3 10:23:04",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/3 13:22:31",
+        "end_time": "2024/12/3 13:54:50",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/3 17:05:43",
+        "end_time": "2024/12/3 18:28:44",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/3 21:42:51",
+        "end_time": "2024/12/3 23:35:55",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/4 02:59:02",
+        "end_time": "2024/12/4 03:11:00",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/4 07:00:07",
+        "end_time": "2024/12/4 07:23:04",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/4 10:14:18",
+        "end_time": "2024/12/4 11:11:55",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/4 14:43:26",
+        "end_time": "2024/12/4 16:11:38",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/4 19:55:15",
+        "end_time": "2024/12/4 21:36:26",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/5 01:19:52",
+        "end_time": "2024/12/5 02:24:34",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/5 05:11:35",
+        "end_time": "2024/12/5 06:30:38",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/5 10:23:59",
+        "end_time": "2024/12/5 11:39:37",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/5 14:29:06",
+        "end_time": "2024/12/5 14:52:36",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/5 17:06:58",
+        "end_time": "2024/12/5 17:21:23",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/5 20:32:11",
+        "end_time": "2024/12/5 22:25:20",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/6 01:59:08",
+        "end_time": "2024/12/6 03:04:17",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/6 05:35:02",
+        "end_time": "2024/12/6 06:39:46",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/6 10:27:04",
+        "end_time": "2024/12/6 11:15:39",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/6 14:26:28",
+        "end_time": "2024/12/6 14:52:28",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/6 18:36:18",
+        "end_time": "2024/12/6 19:37:17",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/6 23:12:56",
+        "end_time": "2024/12/6 23:59:23",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/7 02:59:55",
+        "end_time": "2024/12/7 03:34:09",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/7 05:40:59",
+        "end_time": "2024/12/7 06:04:47",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/7 08:27:59",
+        "end_time": "2024/12/7 10:16:47",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/7 12:59:25",
+        "end_time": "2024/12/7 13:44:31",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/7 15:58:26",
+        "end_time": "2024/12/7 17:38:44",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/7 20:33:42",
+        "end_time": "2024/12/7 21:36:41",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/8 00:11:37",
+        "end_time": "2024/12/8 01:35:03",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/8 04:20:39",
+        "end_time": "2024/12/8 05:55:43",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/8 09:43:23",
+        "end_time": "2024/12/8 10:52:56",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/8 13:15:31",
+        "end_time": "2024/12/8 14:35:36",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/8 17:18:34",
+        "end_time": "2024/12/8 18:33:11",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/8 21:44:07",
+        "end_time": "2024/12/8 22:25:26",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/9 01:49:11",
+        "end_time": "2024/12/9 02:02:09",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/9 04:45:49",
+        "end_time": "2024/12/9 06:04:15",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/9 08:07:25",
+        "end_time": "2024/12/9 09:49:57",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/9 12:28:42",
+        "end_time": "2024/12/9 13:18:55",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/9 15:27:25",
+        "end_time": "2024/12/9 17:16:05",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/9 19:25:02",
+        "end_time": "2024/12/9 21:22:56",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/10 00:51:11",
+        "end_time": "2024/12/10 02:24:50",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/10 06:08:52",
+        "end_time": "2024/12/10 07:18:30",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/10 10:18:59",
+        "end_time": "2024/12/10 10:54:51",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/10 14:16:48",
+        "end_time": "2024/12/10 15:36:40",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/10 18:11:07",
+        "end_time": "2024/12/10 19:09:47",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/10 21:26:48",
+        "end_time": "2024/12/10 22:47:53",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/11 02:43:45",
+        "end_time": "2024/12/11 03:19:44",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/11 06:50:14",
+        "end_time": "2024/12/11 08:03:49",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/11 10:37:32",
+        "end_time": "2024/12/11 11:15:20",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/11 13:41:41",
+        "end_time": "2024/12/11 14:48:49",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/11 17:24:22",
+        "end_time": "2024/12/11 18:59:14",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/11 22:17:12",
+        "end_time": "2024/12/12 00:13:41",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/12 02:30:50",
+        "end_time": "2024/12/12 04:02:38",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/12 07:58:15",
+        "end_time": "2024/12/12 08:56:08",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/12 11:30:06",
+        "end_time": "2024/12/12 12:01:06",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/12 15:05:15",
+        "end_time": "2024/12/12 15:17:29",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/12 19:04:26",
+        "end_time": "2024/12/12 19:49:21",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/12 21:54:02",
+        "end_time": "2024/12/12 23:52:37",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/13 03:13:30",
+        "end_time": "2024/12/13 04:57:13",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/13 08:23:12",
+        "end_time": "2024/12/13 09:13:56",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/13 12:36:28",
+        "end_time": "2024/12/13 13:21:40",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/13 16:04:49",
+        "end_time": "2024/12/13 17:26:17",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/13 21:18:19",
+        "end_time": "2024/12/13 21:43:48",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/14 01:10:57",
+        "end_time": "2024/12/14 02:23:35",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/14 06:10:34",
+        "end_time": "2024/12/14 06:51:13",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/14 09:31:22",
+        "end_time": "2024/12/14 10:43:18",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/14 14:15:28",
+        "end_time": "2024/12/14 15:37:34",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/14 17:59:27",
+        "end_time": "2024/12/14 19:49:41",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/14 22:06:32",
+        "end_time": "2024/12/14 23:29:28",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/15 02:44:40",
+        "end_time": "2024/12/15 04:39:49",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/15 07:57:23",
+        "end_time": "2024/12/15 08:22:12",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/15 10:48:00",
+        "end_time": "2024/12/15 12:36:48",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/15 16:21:53",
+        "end_time": "2024/12/15 17:29:00",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/15 20:10:21",
+        "end_time": "2024/12/15 21:06:35",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/16 00:09:35",
+        "end_time": "2024/12/16 01:58:50",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/16 05:55:14",
+        "end_time": "2024/12/16 07:01:25",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/16 10:25:52",
+        "end_time": "2024/12/16 12:14:36",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/16 15:52:06",
+        "end_time": "2024/12/16 16:05:02",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/16 19:07:56",
+        "end_time": "2024/12/16 20:44:33",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/16 23:21:36",
+        "end_time": "2024/12/17 01:19:22",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/17 04:56:28",
+        "end_time": "2024/12/17 05:38:14",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/17 08:10:19",
+        "end_time": "2024/12/17 09:12:14",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/17 11:55:17",
+        "end_time": "2024/12/17 12:43:45",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/17 15:11:12",
+        "end_time": "2024/12/17 16:15:38",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/17 19:06:34",
+        "end_time": "2024/12/17 19:58:22",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/17 22:42:32",
+        "end_time": "2024/12/17 23:07:37",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/18 01:16:39",
+        "end_time": "2024/12/18 01:43:10",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/18 05:40:28",
+        "end_time": "2024/12/18 06:05:52",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/18 10:05:09",
+        "end_time": "2024/12/18 11:20:18",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/18 14:18:42",
+        "end_time": "2024/12/18 15:19:08",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/18 18:03:54",
+        "end_time": "2024/12/18 19:15:34",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/18 21:53:00",
+        "end_time": "2024/12/18 22:42:50",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/19 01:43:51",
+        "end_time": "2024/12/19 02:15:55",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/19 04:54:13",
+        "end_time": "2024/12/19 06:30:03",
+        "status": "DOWN",
+        "reason": "Supply Chain Delay Feedback"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/19 09:59:58",
+        "end_time": "2024/12/19 10:30:02",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/19 14:10:47",
+        "end_time": "2024/12/19 15:10:42",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/19 18:32:03",
+        "end_time": "2024/12/19 20:00:20",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/19 23:37:17",
+        "end_time": "2024/12/20 00:24:45",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/20 02:55:29",
+        "end_time": "2024/12/20 04:07:48",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/20 06:19:39",
+        "end_time": "2024/12/20 07:40:24",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/20 11:32:58",
+        "end_time": "2024/12/20 12:24:47",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/20 16:13:23",
+        "end_time": "2024/12/20 17:13:03",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/20 19:50:37",
+        "end_time": "2024/12/20 21:36:31",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/21 00:28:23",
+        "end_time": "2024/12/21 00:50:52",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/21 02:54:29",
+        "end_time": "2024/12/21 04:31:32",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/21 08:14:37",
+        "end_time": "2024/12/21 09:49:28",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/21 12:29:35",
+        "end_time": "2024/12/21 13:06:12",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/21 17:04:20",
+        "end_time": "2024/12/21 18:25:34",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/21 21:59:57",
+        "end_time": "2024/12/21 22:18:33",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/22 00:21:03",
+        "end_time": "2024/12/22 01:38:05",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/22 04:56:25",
+        "end_time": "2024/12/22 05:39:39",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/22 08:49:07",
+        "end_time": "2024/12/22 09:23:09",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/22 11:38:55",
+        "end_time": "2024/12/22 12:41:41",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/22 16:27:36",
+        "end_time": "2024/12/22 18:17:46",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/22 22:00:48",
+        "end_time": "2024/12/22 22:17:29",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/23 02:12:09",
+        "end_time": "2024/12/23 03:11:25",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/23 05:57:30",
+        "end_time": "2024/12/23 06:34:52",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/23 09:15:17",
+        "end_time": "2024/12/23 10:29:16",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/23 13:18:12",
+        "end_time": "2024/12/23 14:21:44",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/23 16:28:33",
+        "end_time": "2024/12/23 17:10:23",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/23 20:06:58",
+        "end_time": "2024/12/23 20:43:48",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/23 23:02:35",
+        "end_time": "2024/12/23 23:29:50",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/24 03:04:53",
+        "end_time": "2024/12/24 03:56:24",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/24 07:17:11",
+        "end_time": "2024/12/24 09:03:12",
+        "status": "DOWN",
+        "reason": "Machine Calibration Drift"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/24 11:19:33",
+        "end_time": "2024/12/24 12:59:52",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/24 15:40:51",
+        "end_time": "2024/12/24 16:20:07",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/24 19:16:50",
+        "end_time": "2024/12/24 20:14:11",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/24 22:21:21",
+        "end_time": "2024/12/24 23:11:36",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/25 02:29:59",
+        "end_time": "2024/12/25 02:44:34",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/25 05:21:20",
+        "end_time": "2024/12/25 06:48:02",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/25 09:17:37",
+        "end_time": "2024/12/25 09:44:46",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/25 12:47:15",
+        "end_time": "2024/12/25 14:14:21",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/25 18:04:22",
+        "end_time": "2024/12/25 18:14:30",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/25 21:27:18",
+        "end_time": "2024/12/25 22:18:18",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/26 00:52:51",
+        "end_time": "2024/12/26 01:38:31",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/26 04:25:04",
+        "end_time": "2024/12/26 06:16:31",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/26 09:37:29",
+        "end_time": "2024/12/26 10:18:31",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/26 12:44:48",
+        "end_time": "2024/12/26 13:41:50",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/26 16:09:41",
+        "end_time": "2024/12/26 17:41:54",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/26 21:00:55",
+        "end_time": "2024/12/26 21:48:55",
+        "status": "DOWN",
+        "reason": "Manpower Shortage Alert"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/27 01:30:04",
+        "end_time": "2024/12/27 02:02:04",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/27 05:42:08",
+        "end_time": "2024/12/27 07:12:38",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/27 11:03:57",
+        "end_time": "2024/12/27 12:59:22",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/27 16:10:50",
+        "end_time": "2024/12/27 17:07:50",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/27 21:04:13",
+        "end_time": "2024/12/27 22:39:37",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/28 01:58:26",
+        "end_time": "2024/12/28 03:18:58",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/28 07:04:24",
+        "end_time": "2024/12/28 07:43:59",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/28 11:38:24",
+        "end_time": "2024/12/28 11:51:48",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/28 14:54:36",
+        "end_time": "2024/12/28 15:28:14",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/28 18:29:40",
+        "end_time": "2024/12/28 20:01:44",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/28 22:23:15",
+        "end_time": "2024/12/28 22:52:26",
+        "status": "DOWN",
+        "reason": "Visual"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/29 01:40:03",
+        "end_time": "2024/12/29 02:13:07",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/29 05:21:42",
+        "end_time": "2024/12/29 07:21:22",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/29 11:18:52",
+        "end_time": "2024/12/29 11:52:25",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/29 15:09:38",
+        "end_time": "2024/12/29 16:23:37",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/29 18:46:39",
+        "end_time": "2024/12/29 20:23:14",
+        "status": "DOWN",
+        "reason": "Efficiency Audit Finding"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/29 23:29:50",
+        "end_time": "2024/12/30 00:30:19",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/30 03:09:28",
+        "end_time": "2024/12/30 03:47:13",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/30 06:17:10",
+        "end_time": "2024/12/30 07:28:36",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/30 09:54:02",
+        "end_time": "2024/12/30 10:04:08",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/30 13:17:09",
+        "end_time": "2024/12/30 15:06:33",
+        "status": "DOWN",
+        "reason": "Methodology Compliance Breach"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/30 18:01:35",
+        "end_time": "2024/12/30 18:44:27",
+        "status": "RUNNING",
+        "reason": "Running Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/30 22:24:27",
+        "end_time": "2024/12/30 23:21:43",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/31 02:12:30",
+        "end_time": "2024/12/31 02:55:06",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/31 05:10:17",
+        "end_time": "2024/12/31 06:05:54",
+        "status": "DOWN",
+        "reason": "Inventory Reconciliation Error"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/31 08:13:51",
+        "end_time": "2024/12/31 09:41:45",
+        "status": "IDLE",
+        "reason": "Idle Status"
+    },
+    {
+        "equipment_id": 4,
+        "start_time": "2024/12/31 12:47:18",
+        "end_time": "2024/12/31 14:00:59",
+        "status": "DOWN",
+        "reason": "Material Quality Discrepancy"
+    }
+]
