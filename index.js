@@ -112,6 +112,7 @@ app.get('/Downtimeaggregation', (req, res) => {
 
 
     const result = aggregateData(mergedData.flatMap(splitEntryByMidnightWithReasonStatus));
+    // const result = mergedData.flatMap(splitEntryByMidnightWithReasonStatus);
 
     console.log("Merged result length:", result.length);
     res.json(result);
