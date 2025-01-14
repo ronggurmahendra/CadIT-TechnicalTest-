@@ -9,7 +9,8 @@ const {
     parseTimestamps,
     formatDate,
     splitEntryByMidnightWithReasonStatus,
-    splitEntryByMidnight
+    splitEntryByMidnight,
+    aggregateData
 } = require('./utils');
 
 const {
@@ -110,7 +111,7 @@ app.get('/Downtimeaggregation', (req, res) => {
     });
 
 
-    const result = mergedData.flatMap(splitEntryByMidnightWithReasonStatus);
+    const result = aggregateData(mergedData.flatMap(splitEntryByMidnightWithReasonStatus));
 
     console.log("Merged result length:", result.length);
     res.json(result);

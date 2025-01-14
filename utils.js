@@ -109,12 +109,43 @@ const splitEntryByMidnight = (entry) => {
         },
     ];
 };
+function aggregateData(data) {
+    const aggregatedResults = new Map();
 
+    data.forEach(entry => {
+        console.log(entry)
+        const equipmentId = entry.Equipment;
+        const tempdate = new Date(entry.Start_Time);
+
+        // Extract just the year, month, and day to group by date
+        const year = tempdate.getFullYear();
+        const month = String(tempdate.getMonth() + 1).padStart(2, '0');
+        const day = String(tempdate.getDate()).padStart(2, '0');
+        
+        const date = `${year}-${month}-${day}`
+
+
+        const reason = entry.Status === "Down" ? "Status Down" : entry.Reason;
+        console.log(entry.Start_Time)
+        // group by equipment, date, and reason
+        const key = `${equipmentId}|${date}|${reason}`;
+
+        if (!aggregatedResults.has(key)) {
+            aggregatedResults.set(key, { equipmentId, date, reason, totalOccurrence: 0 });
+        }
+
+        aggregatedResults.get(key).totalOccurrence++;
+    });
+
+    // Convert map values to an array for final result
+    return Array.from(aggregatedResults.values());
+}
 
 module.exports = {
     loadJsonData,
     parseTimestamps,
     formatDate,
     splitEntryByMidnightWithReasonStatus,
-    splitEntryByMidnight
+    splitEntryByMidnight,
+    aggregateData
 };
