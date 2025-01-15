@@ -139,9 +139,9 @@ app.get('/OEECalculation', (req, res) => {
 
         // Calculate A,P,Q for this equipment
         // Equipment Avg
-        // const availability = calculateAvailability(equipmentStatusData, equipmentProductionData);
-        // const performance = calculatePerformance(equipmentStatusData, equipmentProductionData);
-        // const quality = calculateQuality(equipmentStatusData, equipmentProductionData);
+        const availability = calculateAvailability(equipmentStatusData, equipmentProductionData);
+        const performance = calculatePerformance(equipmentStatusData, equipmentProductionData);
+        const quality = calculateQuality(equipmentStatusData, equipmentProductionData);
         // OEE
         const res = calculateOEE(equipmentStatusData, equipmentProductionData)
         const category = categorizeOEE(res.oee);

@@ -15,33 +15,55 @@ const hasRunningStatusForDay = (statusData, date) => {
         return entryDate === date && entry.Status === "RUNNING";
     });
 };
-
 const calculateAvailability = (statusData, productionData) => {
-    // A = RUNNING + IDLE / TOTAL
-    if (!hasProduction(productionData)) return 0;
+    // A = (RUNNING + IDLE) / TOTAL
+
+    if (!productionData || productionData.length === 0) return 0;
 
     let runningTime = 0;
     let idleTime = 0;
     let downTime = 0;
 
+    const getOverlappingDuration = (statusStart, statusEnd, prodStart, prodEnd) => {
+        const overlapStart = Math.max(statusStart, prodStart);
+        const overlapEnd = Math.min(statusEnd, prodEnd);
+        return Math.max(0, overlapEnd - overlapStart);
+    };
+
+    // Iterate over status data to calculate time overlaps with production periods
     statusData.forEach(entry => {
-        const startTime = new Date(entry.Start_Time);
-        const endTime = new Date(entry.End_Time);
+        const statusStart = new Date(entry.Start_Time).getTime();
+        const statusEnd = new Date(entry.End_Time).getTime();
 
-        const duration = (endTime - startTime) / 1000;
+        productionData.forEach(prodEntry => {
+            const prodStart = new Date(prodEntry.start_production).getTime();
+            const prodEnd = new Date(prodEntry.finish_production).getTime();
 
-        if (entry.Status === "RUNNING") {
-            runningTime += duration;
-        } else if (entry.Status === "IDLE") {
-            idleTime += duration;
-        } else if (entry.Status === "DOWN") {
-            downTime += duration;
-        }
+            const overlappingDuration = getOverlappingDuration(
+                statusStart,
+                statusEnd,
+                prodStart,
+                prodEnd
+            );
+            // console.log(statusStart,statusEnd, prodStart, prodEnd)
+            if (overlappingDuration > 0) {
+                const durationInSeconds = overlappingDuration / 1000; // Convert to seconds
+
+                if (entry.Status === "RUNNING") {
+                    runningTime += durationInSeconds;
+                } else if (entry.Status === "IDLE") {
+                    idleTime += durationInSeconds;
+                } else if (entry.Status === "DOWN") {
+                    downTime += durationInSeconds;
+                }
+            }
+        });
     });
 
     const totalTime = runningTime + idleTime + downTime;
     return totalTime > 0 ? (runningTime + idleTime) / totalTime : 0;
 };
+
 
 // Calculate Performance
 const calculatePerformance = (statusData, productionData) => {
@@ -94,39 +116,44 @@ const calculateQuality = (statusData, productionData) => {
 
 // Calculate OEE
 const calculateOEE = (statusData, productionData) => {
-    const uniqueDates = [...new Set(productionData.map(entry => new Date(entry.start_production).toDateString()))];
-    let totalAvailability = 0;
-    let totalPerformance = 0;
-    let totalQuality = 0;
-    let daysWithProduction = 0;
+    // const uniqueDates = [...new Set(productionData.map(entry => new Date(entry.start_production).toDateString()))];
+    // let totalAvailability = 0;
+    // let totalPerformance = 0;
+    // let totalQuality = 0;
+    // let daysWithProduction = 0;
 
     
-    uniqueDates.forEach(date => {
-        // make sure the day calck is producing something first
-        if (hasRunningStatusForDay(statusData, date) && hasProduction(productionData)) {
-            const dailyStatusData = statusData.filter(entry => new Date(entry.Start_Time).toDateString() === date);
-            const dailyProductionData = productionData.filter(entry => new Date(entry.start_production).toDateString() === date);
+    // uniqueDates.forEach(date => {
+    //     // make sure the day calck is producing something first
+    //     if (hasRunningStatusForDay(statusData, date) && hasProduction(productionData)) {
+    //         const dailyStatusData = statusData.filter(entry => new Date(entry.Start_Time).toDateString() === date);
+    //         const dailyProductionData = productionData.filter(entry => new Date(entry.start_production).toDateString() === date);
 
-            const availability = calculateAvailability(dailyStatusData, dailyProductionData);
-            const performance = calculatePerformance(dailyStatusData, dailyProductionData);
-            const quality = calculateQuality(dailyStatusData, dailyProductionData);
+    //         const availability = calculateAvailability(dailyStatusData, dailyProductionData);
+    //         const performance = calculatePerformance(dailyStatusData, dailyProductionData);
+    //         const quality = calculateQuality(dailyStatusData, dailyProductionData);
 
-            totalAvailability += availability;
-            totalPerformance += performance;
-            totalQuality += quality;
-            daysWithProduction++;
-        }
-    });
+    //         totalAvailability += availability;
+    //         totalPerformance += performance;
+    //         totalQuality += quality;
+    //         daysWithProduction++;
+    //     }
+    // });
 
-    const averageAvailability = daysWithProduction > 0 ? totalAvailability / daysWithProduction : 0;
-    const averagePerformance = daysWithProduction > 0 ? totalPerformance / daysWithProduction : 0;
-    const averageQuality = daysWithProduction > 0 ? totalQuality / daysWithProduction : 0;
-    const oee = averageAvailability * averagePerformance * averageQuality;
+    // const averageAvailability = daysWithProduction > 0 ? totalAvailability / daysWithProduction : 0;
+    // const averagePerformance = daysWithProduction > 0 ? totalPerformance / daysWithProduction : 0;
+    // const averageQuality = daysWithProduction > 0 ? totalQuality / daysWithProduction : 0;
 
+    // const oee = averageAvailability * averagePerformance * averageQuality;
+    const availability = calculateAvailability(statusData, productionData);
+    const performance = calculatePerformance(statusData, productionData);
+    const quality = calculateQuality(statusData, productionData);
+    
+    const oee = availability * performance * quality
     return {
-        availability: averageAvailability,
-        performance: averagePerformance,
-        quality: averageQuality,
+        availability: availability,
+        performance: performance,
+        quality: quality,
         oee
     };
 };
