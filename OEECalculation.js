@@ -115,7 +115,7 @@ const calculateQuality = (statusData, productionData) => {
 };
 
 // Returns AVG A,P,Q for a certain equipment 
-const calculateOEE = (statusData, productionData) => {
+const calculateAPQ = (statusData, productionData) => {
     // A, P, Q can only be calculated for single equipment and single day.
     const uniqueDates = [...new Set(productionData.map(entry => new Date(entry.start_production).toDateString()))];
     let totalAvailability = 0;
@@ -175,6 +175,6 @@ module.exports = {
     calculateAvailability,
     calculatePerformance,
     calculateQuality,
-    calculateOEE,
+    calculateAPQ,
     categorizeOEE
 };

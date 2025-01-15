@@ -17,7 +17,7 @@ const {
     calculateAvailability,
     calculatePerformance,
     calculateQuality,
-    calculateOEE,
+    calculateAPQ,
     categorizeOEE
 } = require('./OEECalculation')
 
@@ -140,7 +140,7 @@ app.get('/OEECalculation', (req, res) => {
         const equipmentProductionData = productionData.filter(entry => entry.equipment_id === equipmentId);
 
         // Avg APQ for a certain equipment for multiple day
-        const res = calculateOEE(equipmentStatusData, equipmentProductionData)
+        const res = calculateAPQ(equipmentStatusData, equipmentProductionData)
         tempresults[equipmentId] = {
             availability: res.availability,
             performance: res.performance,
