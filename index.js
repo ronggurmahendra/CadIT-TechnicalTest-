@@ -7,16 +7,12 @@ const port = 3000;
 const {
     loadJsonData,
     parseTimestamps,
-    formatDate,
     splitEntryByMidnightWithReasonStatus,
     splitEntryByMidnight,
     aggregateData
 } = require('./utils');
 
 const {
-    calculateAvailability,
-    calculatePerformance,
-    calculateQuality,
     calculateAPQ,
     categorizeOEE
 } = require('./OEECalculation')
@@ -132,7 +128,6 @@ app.get('/OEECalculation', (req, res) => {
     const tempresults = {};
 
     // // A, P, Q can only be calculated for single equipment and single day.
-
     equipmentIds.forEach(equipmentId => {
         console.log("===================", equipmentId, "===================")
         // Filter  for the current equipment
@@ -146,11 +141,9 @@ app.get('/OEECalculation', (req, res) => {
             performance: res.performance,
             quality: res.quality,
         };
-
-    // console.log(`Equipment ${equipmentId} - Availability: ${availability}, Performance: ${performance}, Quality: ${quality}, OEE: ${oee}, Category: ${category}`);
     });
 
-    //  A/P/Q multiple equipments and multiple days can be calculated as average A/P/Q for multiple days and after that average A/P/Q for multiple equipment.
+    // A/P/Q multiple equipments and multiple days can be calculated as average A/P/Q for multiple days and after that average A/P/Q for multiple equipment.
     // Calculate Average for multiple equipment
     let totalAvailability = 0;
     let totalPerformance = 0;
@@ -174,14 +167,6 @@ app.get('/OEECalculation', (req, res) => {
     const oee = avgAvailability * avgPerformance * avgQuality;
 
     // A/P/Q multiple equipments and multiple days can be calculated as average A/P/Q for multiple days and after that average A/P/Q for multiple equipment.
-    // Construct result object
-    let result = {
-        availability: avgAvailability,
-        performance: avgPerformance,
-        quality: avgQuality,
-        oee: oee,
-        category: categorizeOEE(oee)
-    };
     tempresults["AverageMultipleEquipmentMultipleDays"]  = {
         availability: avgAvailability,
         performance: avgPerformance,
