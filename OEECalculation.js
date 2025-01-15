@@ -114,49 +114,47 @@ const calculateQuality = (statusData, productionData) => {
     return totalActualQuantity > 0 ? goodQuantity / totalActualQuantity : 0;
 };
 
-// Calculate OEE
+// Returns AVG A,P,Q for a certain equipment 
 const calculateOEE = (statusData, productionData) => {
-    // const uniqueDates = [...new Set(productionData.map(entry => new Date(entry.start_production).toDateString()))];
-    // let totalAvailability = 0;
-    // let totalPerformance = 0;
-    // let totalQuality = 0;
-    // let daysWithProduction = 0;
+    // A, P, Q can only be calculated for single equipment and single day.
+    const uniqueDates = [...new Set(productionData.map(entry => new Date(entry.start_production).toDateString()))];
+    let totalAvailability = 0;
+    let totalPerformance = 0;
+    let totalQuality = 0;
+    let daysWithProduction = 0;
 
     
-    // uniqueDates.forEach(date => {
-    //     // make sure the day calck is producing something first
-    //     if (hasRunningStatusForDay(statusData, date) && hasProduction(productionData)) {
-    //         const dailyStatusData = statusData.filter(entry => new Date(entry.Start_Time).toDateString() === date);
-    //         const dailyProductionData = productionData.filter(entry => new Date(entry.start_production).toDateString() === date);
+    uniqueDates.forEach(date => {
+        // Calculates a spesicif equipment in a spesific days
 
-    //         const availability = calculateAvailability(dailyStatusData, dailyProductionData);
-    //         const performance = calculatePerformance(dailyStatusData, dailyProductionData);
-    //         const quality = calculateQuality(dailyStatusData, dailyProductionData);
+        // make sure the day calc is producing something first, skip calc days without status/production
+        if (hasRunningStatusForDay(statusData, date) && hasProduction(productionData)) {
+            const dailyStatusData = statusData.filter(entry => new Date(entry.Start_Time).toDateString() === date);
+            const dailyProductionData = productionData.filter(entry => new Date(entry.start_production).toDateString() === date);
 
-    //         totalAvailability += availability;
-    //         totalPerformance += performance;
-    //         totalQuality += quality;
-    //         daysWithProduction++;
-    //     }
-    // });
+            const availability = calculateAvailability(dailyStatusData, dailyProductionData);
+            const performance = calculatePerformance(dailyStatusData, dailyProductionData);
+            const quality = calculateQuality(dailyStatusData, dailyProductionData);
 
-    // const averageAvailability = daysWithProduction > 0 ? totalAvailability / daysWithProduction : 0;
-    // const averagePerformance = daysWithProduction > 0 ? totalPerformance / daysWithProduction : 0;
-    // const averageQuality = daysWithProduction > 0 ? totalQuality / daysWithProduction : 0;
+            totalAvailability += availability;
+            totalPerformance += performance;
+            totalQuality += quality;
+            daysWithProduction++;
+        }
+    });
+    // Equipment Average 
+    const averageAvailability = daysWithProduction > 0 ? totalAvailability / daysWithProduction : 0;
+    const averagePerformance = daysWithProduction > 0 ? totalPerformance / daysWithProduction : 0;
+    const averageQuality = daysWithProduction > 0 ? totalQuality / daysWithProduction : 0;
 
-    // const oee = averageAvailability * averagePerformance * averageQuality;
-    const availability = calculateAvailability(statusData, productionData);
-    const performance = calculatePerformance(statusData, productionData);
-    const quality = calculateQuality(statusData, productionData);
-    
-    const oee = availability * performance * quality
     return {
-        availability: availability,
-        performance: performance,
-        quality: quality,
-        oee
+        availability: averageAvailability,
+        performance: averagePerformance,
+        quality: averageQuality,
     };
 };
+
+
 const categorizeOEE = (oee) => {
     if (0 <= oee && oee <= 0.5) {
         return "Bad";

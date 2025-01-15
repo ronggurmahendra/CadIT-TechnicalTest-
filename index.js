@@ -125,11 +125,13 @@ app.get('/OEECalculation', (req, res) => {
     const productionData = JSON.parse(fs.readFileSync('production.json', 'utf8'));
 
     const equipmentIds =  Array.from(new Set(statusData.map(entry => entry.Equipment)));
-    console.log(statusData)
-    console.log("equipmentIds : " , equipmentIds)
+    console.log(statusData);
+    console.log("equipmentIds : " , equipmentIds);
 
-    // Calculate each equipment
-    const results = {};
+    // // Calculate avg APQ each equipment
+    const tempresults = {};
+
+    // // A, P, Q can only be calculated for single equipment and single day.
 
     equipmentIds.forEach(equipmentId => {
         console.log("===================", equipmentId, "===================")
@@ -137,57 +139,59 @@ app.get('/OEECalculation', (req, res) => {
         const equipmentStatusData = statusData.filter(entry => entry.Equipment === equipmentId);
         const equipmentProductionData = productionData.filter(entry => entry.equipment_id === equipmentId);
 
-        // Calculate A,P,Q for this equipment
-        // Equipment Avg
-        const availability = calculateAvailability(equipmentStatusData, equipmentProductionData);
-        const performance = calculatePerformance(equipmentStatusData, equipmentProductionData);
-        const quality = calculateQuality(equipmentStatusData, equipmentProductionData);
-        // OEE
+        // Avg APQ for a certain equipment for multiple day
         const res = calculateOEE(equipmentStatusData, equipmentProductionData)
-        const category = categorizeOEE(res.oee);
-        results[equipmentId] = {
-            equipmentId,
+        tempresults[equipmentId] = {
             availability: res.availability,
             performance: res.performance,
             quality: res.quality,
-            oee: res.oee,
-            category
         };
 
-        // console.log(`Equipment ${equipmentId} - Availability: ${availability}, Performance: ${performance}, Quality: ${quality}, OEE: ${oee}, Category: ${category}`);
+    // console.log(`Equipment ${equipmentId} - Availability: ${availability}, Performance: ${performance}, Quality: ${quality}, OEE: ${oee}, Category: ${category}`);
     });
-    // Calculate Averages
+
+    //  A/P/Q multiple equipments and multiple days can be calculated as average A/P/Q for multiple days and after that average A/P/Q for multiple equipment.
+    // Calculate Average for multiple equipment
     let totalAvailability = 0;
     let totalPerformance = 0;
     let totalQuality = 0;
-    let totalOEE = 0;
     let validEquipmentCount = 0;
 
     equipmentIds.forEach(equipmentId => {
-        const equipmentData = results[equipmentId];
+        const equipmentData = tempresults[equipmentId];
         if (equipmentData.availability > 0 || equipmentData.performance > 0 || equipmentData.quality > 0) {
             totalAvailability += equipmentData.availability;
             totalPerformance += equipmentData.performance;
             totalQuality += equipmentData.quality;
-            totalOEE += equipmentData.oee;
             validEquipmentCount++;
         }
     });
 
-    // Calculate averages
+    // // Calculate averages multiple equipments and multiple days 
     const avgAvailability = validEquipmentCount > 0 ? totalAvailability / validEquipmentCount : 0;
     const avgPerformance = validEquipmentCount > 0 ? totalPerformance / validEquipmentCount : 0;
     const avgQuality = validEquipmentCount > 0 ? totalQuality / validEquipmentCount : 0;
-    const avgOEE = validEquipmentCount > 0 ? totalOEE / validEquipmentCount : 0;
+    const oee = avgAvailability * avgPerformance * avgQuality;
 
-    results["All Equipment Average"] = {
+    // A/P/Q multiple equipments and multiple days can be calculated as average A/P/Q for multiple days and after that average A/P/Q for multiple equipment.
+    // Construct result object
+    let result = {
         availability: avgAvailability,
         performance: avgPerformance,
         quality: avgQuality,
-        oee: avgOEE,
-        category: categorizeOEE(avgOEE)
+        oee: oee,
+        category: categorizeOEE(oee)
     };
-    res.json(results);
+    tempresults["AverageMultipleEquipmentMultipleDays"]  = {
+        availability: avgAvailability,
+        performance: avgPerformance,
+        quality: avgQuality,
+        oee: oee,
+        category: categorizeOEE(oee)
+    };
+
+    // Return JSON response
+    res.json(tempresults);
 });
 
 
